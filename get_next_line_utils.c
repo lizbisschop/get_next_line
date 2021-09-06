@@ -6,7 +6,7 @@
 /*   By: lbisscho <lbisscho@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/11/20 13:39:37 by lbisscho       #+#    #+#                */
-/*   Updated: 2019/12/16 11:43:26 by lbisscho      ########   odam.nl         */
+/*   Updated: 2019/12/23 10:39:50 by lbisscho      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ size_t		ft_strlen(const char *str)
 	return (i);
 }
 
-char		*ft_strjoin(char *s1, char *s2)
+char		*gnl_strjoin(char *s1, char *s2)
 {
 	int		i;
 	int		j;
@@ -53,7 +53,7 @@ char		*ft_strjoin(char *s1, char *s2)
 	return (str3);
 }
 
-char		*ft_strdup(const char *s1)
+char		*gnl_strdup(const char *s1)
 {
 	size_t	i;
 	char	*s2;
@@ -73,7 +73,7 @@ char		*ft_strdup(const char *s1)
 	return (s2);
 }
 
-char		*ft_strndup(char *str, size_t end)
+char		*gnl_strndup(char *str, size_t end)
 {
 	size_t		i;
 	char		*newstr;
